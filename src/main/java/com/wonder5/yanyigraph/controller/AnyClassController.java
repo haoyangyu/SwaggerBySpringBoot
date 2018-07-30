@@ -14,10 +14,11 @@ import org.springframework.web.bind.annotation.RestController;
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
 /**
- * Controller example for any class that aims ot provide API services
+ * Controller generic example for any class that aims ot provide API services
  * @author yuhaoy
  */
 @RestController
+@RequestMapping("/api")
 public class AnyClassController {
 
     /**
